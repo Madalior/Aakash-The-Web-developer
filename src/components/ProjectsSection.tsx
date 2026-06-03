@@ -18,7 +18,7 @@ const projects: ProjectDetails[] = [
     clientRow: "E-Commerce",
     name: "VAULX",
     url: "https://e-commerce-eight-orcin-29.vercel.app/",
-    videoSrc: "/1.mp4"
+    videoSrc: "1.mp4"
   },
   {
     id: "p2",
@@ -26,7 +26,7 @@ const projects: ProjectDetails[] = [
     clientRow: "Healthcare",
     name: "Rocky Clinic",
     url: "https://clinic-kw62.vercel.app/#doctors",
-    videoSrc: "/2.mp4"
+    videoSrc: "2.mp4"
   },
   {
     id: "p3",
@@ -34,7 +34,7 @@ const projects: ProjectDetails[] = [
     clientRow: "Legal",
     name: "Law Daily",
     url: "https://lawyer-six-flax.vercel.app/",
-    videoSrc: "/3.mp4"
+    videoSrc: "3.mp4"
   },
   {
     id: "p4",
@@ -42,7 +42,7 @@ const projects: ProjectDetails[] = [
     clientRow: "Retail",
     name: "K. Perumal Silks",
     url: "https://k-perumal-silks.vercel.app/",
-    videoSrc: "/4.mp4"
+    videoSrc: "4.mp4"
   },
   {
     id: "p5",
@@ -50,7 +50,7 @@ const projects: ProjectDetails[] = [
     clientRow: "Blog",
     name: "NHM Explorations",
     url: "https://blog1-omega-olive.vercel.app/",
-    videoSrc: "/5.mp4"
+    videoSrc: "5.mp4"
   },
   {
     id: "p6",
@@ -58,7 +58,7 @@ const projects: ProjectDetails[] = [
     clientRow: "Platform",
     name: "Asme Platform",
     url: "https://login-l3byaq3ab-madaliors-projects.vercel.app/",
-    videoSrc: "/6.mp4"
+    videoSrc: "6.mp4"
   },
   {
     id: "p7",
@@ -66,7 +66,7 @@ const projects: ProjectDetails[] = [
     clientRow: "Construction",
     name: "Ironveil",
     url: "https://construction-pink-delta.vercel.app/",
-    videoSrc: "/7.mp4"
+    videoSrc: "7.mp4"
   }
 ];
 
@@ -95,10 +95,10 @@ const ProjectCard: React.FC<{ project: ProjectDetails; index: number; totalCards
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-8 w-full flex-1 md:flex-none md:h-full min-h-0 md:min-h-[500px]">
-          <div className="hidden md:flex w-full md:w-[40%] md:flex-col gap-4 sm:gap-6 md:gap-8 justify-between">
-            <video src={project.videoSrc} autoPlay loop muted playsInline className="w-full rounded-[30px] sm:rounded-[40px] md:rounded-[50px] object-cover" style={{ height: 'clamp(130px, 16vw, 230px)', objectPosition: 'top' }} />
-            <video src={project.videoSrc} autoPlay loop muted playsInline className="w-full h-full flex-1 rounded-[30px] sm:rounded-[40px] md:rounded-[50px] object-cover" style={{ minHeight: 'clamp(160px, 22vw, 340px)', objectPosition: 'center' }} />
+        <div className="flex flex-col md:flex-row gap-2 sm:gap-4 md:gap-8 w-full flex-1 md:flex-none md:h-full min-h-0 md:min-h-[500px]">
+          <div className="flex flex-row md:flex-col w-full md:w-[40%] gap-2 sm:gap-4 md:gap-8 justify-between h-[25%] min-h-[80px] md:min-h-0 md:h-auto shrink-0">
+            <video src={project.videoSrc} autoPlay loop muted playsInline className="w-1/2 md:w-full h-full md:h-[clamp(130px,16vw,230px)] rounded-[15px] sm:rounded-[30px] md:rounded-[50px] object-cover object-center md:object-top" />
+            <video src={project.videoSrc} autoPlay loop muted playsInline className="w-1/2 md:w-full h-full md:min-h-[clamp(160px,22vw,340px)] flex-1 rounded-[15px] sm:rounded-[30px] md:rounded-[50px] object-cover object-center" />
           </div>
           <div className="w-full md:w-[60%] flex-1 md:flex-none flex bg-[#1A1A1A] rounded-[20px] sm:rounded-[40px] md:rounded-[50px] overflow-hidden border border-[#D7E2EA]/10 relative group">
             <video 
