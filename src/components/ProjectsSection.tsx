@@ -24,7 +24,7 @@ const projects: ProjectDetails[] = [
     id: "p2",
     num: "02",
     clientRow: "Healthcare",
-    name: "Aakash Clinic",
+    name: "Rocky Clinic",
     url: "https://clinic-kw62.vercel.app/#doctors",
     videoSrc: "/2.mp4"
   },

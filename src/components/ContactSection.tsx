@@ -22,7 +22,7 @@ export const ContactSection: React.FC = () => {
           {/* Phone */}
           <FadeIn delay={0.3} y={40} className="flex">
             <a 
-              href="tel:+916383942114" 
+              href="tel:+918122220141" 
               className="flex-1 flex flex-col items-center justify-center gap-4 p-8 rounded-[30px] border-2 border-[#D7E2EA]/10 bg-[#1A1A1A] hover:bg-[#222222] hover:border-[#D7E2EA]/30 transition-all group"
             >
               <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#B600A8] to-[#7621B0] flex items-center justify-center shadow-[0_0_15px_rgba(181,1,167,0.4)] group-hover:scale-110 transition-transform">
@@ -30,7 +30,7 @@ export const ContactSection: React.FC = () => {
               </div>
               <div className="text-center">
                 <h3 className="text-[#D7E2EA]/60 uppercase tracking-widest text-sm font-semibold mb-2">Phone</h3>
-                <p className="text-[#D7E2EA] font-bold text-xl">+91 6383942114</p>
+                <p className="text-[#D7E2EA] font-bold text-xl">+91 81222 20141</p>
               </div>
             </a>
           </FadeIn>
@@ -38,7 +38,7 @@ export const ContactSection: React.FC = () => {
           {/* WhatsApp */}
           <FadeIn delay={0.4} y={40} className="flex">
             <a 
-              href="https://wa.me/916383942114" 
+              href="https://wa.me/918122220141" 
               target="_blank" 
               rel="noreferrer"
               className="flex-1 flex flex-col items-center justify-center gap-4 p-8 rounded-[30px] border-2 border-[#D7E2EA]/10 bg-[#1A1A1A] hover:bg-[#222222] hover:border-[#D7E2EA]/30 transition-all group"
@@ -48,7 +48,7 @@ export const ContactSection: React.FC = () => {
               </div>
               <div className="text-center">
                 <h3 className="text-[#D7E2EA]/60 uppercase tracking-widest text-sm font-semibold mb-2">WhatsApp</h3>
-                <p className="text-[#D7E2EA] font-bold text-xl">+91 6383942114</p>
+                <p className="text-[#D7E2EA] font-bold text-xl">+91 81222 20141</p>
               </div>
             </a>
           </FadeIn>
@@ -56,7 +56,7 @@ export const ContactSection: React.FC = () => {
           {/* Gmail */}
           <FadeIn delay={0.5} y={40} className="flex">
             <a 
-              href="mailto:aakashvibezzz@gmail.com" 
+              href="mailto:rockysuriyaa@gmail.com" 
               className="flex-1 flex flex-col items-center justify-center gap-4 p-8 rounded-[30px] border-2 border-[#D7E2EA]/10 bg-[#1A1A1A] hover:bg-[#222222] hover:border-[#D7E2EA]/30 transition-all group"
             >
               <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#EA4335] to-[#B31404] flex items-center justify-center shadow-[0_0_15px_rgba(234,67,53,0.4)] group-hover:scale-110 transition-transform">
@@ -64,7 +64,7 @@ export const ContactSection: React.FC = () => {
               </div>
               <div className="text-center w-full overflow-hidden">
                 <h3 className="text-[#D7E2EA]/60 uppercase tracking-widest text-sm font-semibold mb-2">Email</h3>
-                <p className="text-[#D7E2EA] font-bold text-[0.95rem] md:text-[1rem] truncate w-full" title="aakashvibezzz@gmail.com">aakashvibezzz@gmail.com</p>
+                <p className="text-[#D7E2EA] font-bold text-[0.95rem] md:text-[1rem] truncate w-full" title="rockysuriyaa@gmail.com">rockysuriyaa@gmail.com</p>
               </div>
             </a>
           </FadeIn>

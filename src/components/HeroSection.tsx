@@ -18,7 +18,7 @@ export const HeroSection: React.FC = () => {
         <div className="overflow-hidden w-full flex justify-center">
           <FadeIn delay={0.15} y={40}>
             <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[clamp(2rem,9.5vw,200px)] mt-6 sm:mt-4 md:-mt-5">
-              Hi, i&apos;m aakash
+              Hi, i&apos;m rocky
             </h1>
           </FadeIn>
         </div>
@@ -42,7 +42,7 @@ export const HeroSection: React.FC = () => {
           <Magnet padding={150} strength={3}>
             <img 
               src="https://shrug-person-78902957.figma.site/_components/v2/d24c01ad3a56fc65e942a1f501eb73db42d7cf9a/Rectangle_40443.81459862.png" 
-              alt="Aakash Portrait"
+              alt="Rocky Portrait"
               className="w-full h-auto object-contain"
             />
           </Magnet>

@@ -65,7 +65,7 @@ export const PricingSection: React.FC = () => {
               ))}
             </ul>
             
-            <a href="tel:+916383942114" className="text-center w-full rounded-full border-2 border-[#D7E2EA] text-[#D7E2EA] font-medium uppercase tracking-widest py-3 sm:py-4 hover:bg-[#D7E2EA] hover:text-[#0C0C0C] transition-colors mt-auto">
+            <a href="tel:+918122220141" className="text-center w-full rounded-full border-2 border-[#D7E2EA] text-[#D7E2EA] font-medium uppercase tracking-widest py-3 sm:py-4 hover:bg-[#D7E2EA] hover:text-[#0C0C0C] transition-colors mt-auto">
               Get Started
             </a>
           </FadeIn>
